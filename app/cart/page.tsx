@@ -2,7 +2,6 @@
 import { useCart } from "../../context/CartContext";
 import { Trash2, Plus, Minus, ShoppingCart } from "lucide-react";
 import Image from "next/image";
-import Header from "../../components/Header";
 import { useRouter } from "next/navigation";
 
 export default function CartPage() {
@@ -23,7 +22,6 @@ export default function CartPage() {
 
     return (
         <>
-            <Header />
             <section className="relative px-2 sm:px-4 py-8 sm:py-12 max-w-4xl mx-auto min-h-[70vh]">
                 <h2 className="text-2xl sm:text-3xl font-extrabold mb-6 sm:mb-10 text-center text-purple-700 tracking-tight">Your Cart</h2>
                 {items.length === 0 ? (

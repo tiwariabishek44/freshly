@@ -5,6 +5,8 @@ import "./globals.css";
 import { CartProvider } from "../context/CartContext";
 import { useState } from "react";
 import Toast from "../components/Toast";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 // Modern E-commerce Font Configurations (Similar to AliExpress, Flipkart)
 const roboto = Roboto({
@@ -58,8 +60,10 @@ export default function RootLayout({
         className={`${roboto.variable} ${dmSans.variable} ${manrope.variable} ${workSans.variable} ${nunito.variable} antialiased`}
       >
         <CartProvider>
+          <Header />
           <Toast message={toast.message} show={toast.show} onClose={() => setToast({ show: false, message: "" })} />
           {children}
+          <Footer />
         </CartProvider>
       </body>
     </html>

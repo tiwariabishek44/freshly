@@ -2,7 +2,6 @@
 import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import ProductCard from "../../components/ProductCard";
-import Header from "../../components/Header";
 import { SlidersHorizontal, X, Tag, DollarSign, Star, Package, ChevronRight } from "lucide-react";
 
 
@@ -469,7 +468,6 @@ function ProductsPage() {
 
     return (
         <>
-            <Header />
             <div className="flex min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-50">
                 {/* Desktop Sidebar */}
                 <div className="hidden lg:block">

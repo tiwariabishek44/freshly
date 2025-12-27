@@ -3,7 +3,6 @@ import { useCart } from "../../context/CartContext";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { ShoppingCart, CreditCard, User, Home } from "lucide-react";
-import Header from "../../components/Header";
 
 export default function CheckoutPage() {
     const { state, dispatch } = useCart();
@@ -32,7 +31,6 @@ export default function CheckoutPage() {
 
     return (
         <>
-            <Header />
             <section className="max-w-xl mx-auto px-2 sm:px-6 py-8 sm:py-12">
                 <h2 className="text-2xl sm:text-3xl font-extrabold mb-6 sm:mb-8 text-center text-purple-700 tracking-tight flex items-center justify-center gap-2">
                     <CreditCard className="w-7 sm:w-8 h-7 sm:h-8 text-purple-400" /> Checkout

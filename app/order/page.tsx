@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import { ShoppingCart, Trash2, Package, Calendar, Mail, MapPin, Download, Eye } from "lucide-react";
-import Header from "../../components/Header";
 
 export default function OrderPage() {
     const [orders, setOrders] = useState<any[]>([]);
@@ -28,7 +27,6 @@ export default function OrderPage() {
 
     return (
         <>
-            <Header />
 
             {/* Background decoration */}
             <div className="fixed inset-0 bg-gradient-to-br from-purple-50 via-white to-pink-50 -z-10"></div>
