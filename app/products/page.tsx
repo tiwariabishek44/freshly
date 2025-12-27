@@ -10,10 +10,10 @@ import { SlidersHorizontal, X, Tag, DollarSign, Star, Package, ChevronRight } fr
 const PRODUCTS = [
     {
         id: "1",
-        image: "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&w=400&q=80",
+        image: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=400&q=80",
         category: "Fruits",
         brand: "FreshMart",
-        title: "Fresh Red Apples - Premium Quality",
+        title: "Organic Red Apples - Premium Quality",
         price: "4.99",
         oldPrice: "6.99",
         discount: 29,
@@ -22,7 +22,7 @@ const PRODUCTS = [
     },
     {
         id: "2",
-        image: "https://images.pexels.com/photos/2872755/pexels-photo-2872755.jpeg?auto=compress&w=400&q=80",
+        image: "https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=400&q=80",
         category: "Fruits",
         brand: "Organic Valley",
         title: "Organic Bananas - Naturally Sweet",
@@ -34,10 +34,10 @@ const PRODUCTS = [
     },
     {
         id: "3",
-        image: "https://images.pexels.com/photos/47347/broccoli-vegetable-food-healthy-47347.jpeg?auto=compress&w=400&q=80",
+        image: "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=400&q=80",
         category: "Vegetables",
         brand: "Green Fields",
-        title: "Fresh Broccoli - Rich in Nutrients",
+        title: "Organic Broccoli - Rich in Nutrients",
         price: "1.99",
         oldPrice: "2.49",
         discount: 20,
@@ -46,10 +46,10 @@ const PRODUCTS = [
     },
     {
         id: "4",
-        image: "https://images.pexels.com/photos/236010/pexels-photo-236010.jpeg?auto=compress&w=400&q=80",
-        category: "Dairy",
-        brand: "DairyFresh",
-        title: "Fresh Whole Milk - 1 Gallon",
+        image: "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=400&q=80",
+        category: "Vegetables",
+        brand: "Green Fields",
+        title: "Organic Bell Peppers - Colorful Mix",
         price: "3.49",
         oldPrice: "4.49",
         discount: 22,
@@ -58,7 +58,7 @@ const PRODUCTS = [
     },
     {
         id: "5",
-        image: "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&w=400&q=80",
+        image: "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=400&q=80",
         category: "Vegetables",
         brand: "Green Fields",
         title: "Organic Carrots - Fresh & Crunchy",
@@ -70,10 +70,10 @@ const PRODUCTS = [
     },
     {
         id: "6",
-        image: "https://images.pexels.com/photos/568471/pexels-photo-568471.jpeg?auto=compress&w=400&q=80",
+        image: "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?w=400&q=80",
         category: "Fruits",
         brand: "Tropical Farms",
-        title: "Sweet Oranges - Vitamin C Rich",
+        title: "Organic Oranges - Vitamin C Rich",
         price: "5.99",
         oldPrice: "7.99",
         discount: 25,
@@ -82,10 +82,10 @@ const PRODUCTS = [
     },
     {
         id: "7",
-        image: "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&w=400&q=80",
+        image: "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=400&q=80",
         category: "Vegetables",
         brand: "FreshMart",
-        title: "Cherry Tomatoes - Sweet & Juicy",
+        title: "Organic Cherry Tomatoes - Sweet & Juicy",
         price: "3.99",
         discount: 0,
         rating: "4.5",
@@ -93,10 +93,10 @@ const PRODUCTS = [
     },
     {
         id: "8",
-        image: "https://images.pexels.com/photos/128402/pexels-photo-128402.jpeg?auto=compress&w=400&q=80",
-        category: "Dairy",
-        brand: "DairyFresh",
-        title: "Greek Yogurt - Low Fat 500g",
+        image: "https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=400&q=80",
+        category: "Vegetables",
+        brand: "Green Fields",
+        title: "Organic Cucumber - Fresh & Crisp",
         price: "4.99",
         oldPrice: "6.49",
         discount: 23,
@@ -105,10 +105,10 @@ const PRODUCTS = [
     },
     {
         id: "9",
-        image: "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&w=400&q=80",
+        image: "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=400&q=80",
         category: "Fruits",
         brand: "Organic Valley",
-        title: "Fresh Strawberries - 1lb Pack",
+        title: "Organic Strawberries - 1lb Pack",
         price: "6.99",
         oldPrice: "8.99",
         discount: 22,
@@ -117,10 +117,10 @@ const PRODUCTS = [
     },
     {
         id: "10",
-        image: "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&w=400&q=80",
+        image: "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=400&q=80",
         category: "Vegetables",
         brand: "Green Fields",
-        title: "Baby Spinach - Organic 300g",
+        title: "Organic Baby Spinach - 300g",
         price: "2.99",
         discount: 0,
         rating: "4.4",
@@ -128,10 +128,10 @@ const PRODUCTS = [
     },
     {
         id: "11",
-        image: "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&w=400&q=80",
-        category: "Bakery",
-        brand: "Baker's Delight",
-        title: "Whole Wheat Bread - Fresh Baked",
+        image: "https://images.unsplash.com/photo-1610348725531-843dff563e2c?w=400&q=80",
+        category: "Vegetables",
+        brand: "Green Fields",
+        title: "Organic Lettuce - Fresh & Crispy",
         price: "3.49",
         oldPrice: "4.49",
         discount: 22,
@@ -140,10 +140,10 @@ const PRODUCTS = [
     },
     {
         id: "12",
-        image: "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&w=400&q=80",
-        category: "Snacks",
-        brand: "Crunchy Bites",
-        title: "Mixed Nuts - Premium 500g",
+        image: "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=400&q=80",
+        category: "Fruits",
+        brand: "Organic Valley",
+        title: "Organic Blueberries - Premium 500g",
         price: "8.99",
         oldPrice: "11.99",
         discount: 25,
@@ -153,15 +153,11 @@ const PRODUCTS = [
 ];
 
 const CATEGORIES = [
-    { name: "All Categories", count: PRODUCTS.length },
     { name: "Fruits", count: PRODUCTS.filter(p => p.category === "Fruits").length },
     { name: "Vegetables", count: PRODUCTS.filter(p => p.category === "Vegetables").length },
-    { name: "Dairy", count: PRODUCTS.filter(p => p.category === "Dairy").length },
-    { name: "Bakery", count: PRODUCTS.filter(p => p.category === "Bakery").length },
-    { name: "Snacks", count: PRODUCTS.filter(p => p.category === "Snacks").length },
 ];
 
-const BRANDS = ["All Brands", "FreshMart", "Organic Valley", "Green Fields", "DairyFresh", "Baker's Delight", "Tropical Farms", "Crunchy Bites"];
+const BRANDS = ["All Brands", "FreshMart", "Organic Valley", "Green Fields", "Tropical Farms",];
 
 const PRICE_RANGES = [
     { label: "All Prices", min: 0, max: Infinity },
@@ -279,12 +275,7 @@ function ProductsPage() {
                                     {cat.name}
                                 </span>
                             </div>
-                            <span className={`text-xs font-semibold px-2 py-0.5 rounded-full transition-colors duration-200 ${selectedCategory === cat.name
-                                ? 'bg-white/20 text-white'
-                                : 'bg-gray-200/60 text-gray-500 group-hover:bg-purple-100 group-hover:text-purple-600'
-                                }`}>
-                                {cat.count}
-                            </span>
+
                             <input
                                 type="radio"
                                 name="category"

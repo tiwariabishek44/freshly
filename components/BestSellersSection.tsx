@@ -79,8 +79,8 @@ const BestSellersSection: React.FC = () => {
     const products: Product[] = [
         {
             id: 1,
-            name: "Mini Cinnamon Rolls – 12oz",
-            image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=400&fit=crop",
+            name: "Organic Sweet Potatoes – Fresh 2lb Bag",
+            image: "https://images.unsplash.com/photo-1589927986089-35812388d1f4?w=400&h=400&fit=crop",
             discount: 75,
             rating: 5,
             reviews: 2,
@@ -90,7 +90,7 @@ const BestSellersSection: React.FC = () => {
         },
         {
             id: 2,
-            name: "Whole Foods Market, Organic Trimmed",
+            name: "Organic Trimmed Green Beans – Fresh 12oz",
             image: "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=400&h=400&fit=crop",
             discount: 41,
             rating: 4,
@@ -99,14 +99,13 @@ const BestSellersSection: React.FC = () => {
             originalPrice: 4.13,
             featured: false
         },
-
     ];
 
     const rightProducts: Product[] = [
         {
             id: 4,
-            name: "Maxican Nature's Sweet Bounty Fresh Organic Giant Papaya",
-            image: "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=400&h=400&fit=crop",
+            name: "Organic Giant Papaya - Sweet & Tropical Fresh Fruit",
+            image: "https://images.unsplash.com/photo-1617112848923-cc2234396a8d?w=400&h=400&fit=crop",
             discount: 75,
             rating: 4,
             reviews: 2,
@@ -116,8 +115,8 @@ const BestSellersSection: React.FC = () => {
         },
         {
             id: 5,
-            name: "Simply Orange Pulp Free Juice – 52 fl oz",
-            image: "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&h=400&fit=crop",
+            name: "Organic Fresh Oranges – Premium Citrus 3lb Bag",
+            image: "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?w=400&h=400&fit=crop",
             discount: 41,
             rating: 4,
             reviews: 2,
@@ -125,9 +124,7 @@ const BestSellersSection: React.FC = () => {
             originalPrice: 4.13,
             featured: false
         },
-
     ];
-
     const featuredProduct: FeaturedProduct = {
         id: 7,
         name: "Aptamil Gold+ ProNutra Biotik Stage 1 Infant Formula– 31.7",
